@@ -1,0 +1,66 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &7819835757484327741
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2723587816089045357}
+  - component: {fileID: 2307705045266591754}
+  m_Layer: 0
+  m_Name: FoodCell
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2723587816089045357
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7819835757484327741}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2307705045266591754
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7819835757484327741}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2cb9a42e56f85b046a45a9a201961770, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  lockedSprite: {fileID: 21300000, guid: 2e15ac225402d174db96fd5a724c1316, type: 3}
+  unlockedSprite: {fileID: 21300000, guid: f9a58ce50d49e6f4097ec46c39afd422, type: 3}
+  depth: 0
+  errorSounds:
+  - {fileID: 8300000, guid: fcd92605b04ada541906d84d17f70580, type: 3}
+  - {fileID: 8300000, guid: f816be4d7bbeb9945b787560001a0945, type: 3}
+  - {fileID: 8300000, guid: 223b9e029ba43eb4e8627c8f3ad24e5c, type: 3}
+  - {fileID: 8300000, guid: 17d513c146272d14da2c86e31cc51d32, type: 3}
+  - {fileID: 8300000, guid: f6e6dcbdcfecb2c458fceb90f66a52d4, type: 3}
+  state: 0
+  rootSounds:
+  - {fileID: 8300000, guid: a08051ade6546c34bac7128ee7746e07, type: 3}
+  - {fileID: 8300000, guid: b20a4603c85b7ab4d901cc7c4694fc6c, type: 3}
+  - {fileID: 8300000, guid: 447267b124e7d7a478690c0b92be028b, type: 3}
+  - {fileID: 8300000, guid: 7b7d32278e6678c488426eb6eea032c6, type: 3}
+  - {fileID: 8300000, guid: b484e7b6f0360704f861fe9cb71c4adb, type: 3}
+  - {fileID: 8300000, guid: 34f0c13d913d8da43ad67a6a2c64276c, type: 3}
+  - {fileID: 8300000, guid: 80616658fb121d0468618f780ec16f6a, type: 3}
+  - {fileID: 8300000, guid: 09d1da86a9991934fbdb0d37b1626411, type: 3}
+  cardManagerPrefab: {fileID: 8288964748020361683, guid: 0976922dabc593944aed5f31a966993f, type: 3}
